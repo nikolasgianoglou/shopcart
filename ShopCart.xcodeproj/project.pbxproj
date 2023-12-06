@@ -19,6 +19,12 @@
 		F86243F22B2064F000D0E680 /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243F12B2064F000D0E680 /* CustomStepper.swift */; };
 		F86243F42B20650200D0E680 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243F32B20650200D0E680 /* CustomBackButton.swift */; };
 		F86243F62B20651200D0E680 /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243F52B20651200D0E680 /* CustomAsyncImage.swift */; };
+		F86243F92B206AC600D0E680 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243F82B206AC600D0E680 /* Constants.swift */; };
+		F86243FB2B206AD200D0E680 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243FA2B206AD200D0E680 /* NetworkErrors.swift */; };
+		F86243FE2B206B0B00D0E680 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243FD2B206B0B00D0E680 /* Service.swift */; };
+		F86244012B206DE200D0E680 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244002B206DE200D0E680 /* Coordinator.swift */; };
+		F86244032B206DEF00D0E680 /* CoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244022B206DEF00D0E680 /* CoordinatorViewModel.swift */; };
+		F86244052B206E0200D0E680 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244042B206E0200D0E680 /* CoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		F86243F12B2064F000D0E680 /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
 		F86243F32B20650200D0E680 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
 		F86243F52B20651200D0E680 /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
+		F86243F82B206AC600D0E680 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F86243FA2B206AD200D0E680 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		F86243FD2B206B0B00D0E680 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F86244002B206DE200D0E680 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F86244022B206DEF00D0E680 /* CoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViewModel.swift; sourceTree = "<group>"; };
+		F86244042B206E0200D0E680 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,8 @@
 		F86243C02B20634B00D0E680 /* ShopCart */ = {
 			isa = PBXGroup;
 			children = (
+				F86243FF2B206DD300D0E680 /* Coordinator */,
+				F86243FC2B206AFD00D0E680 /* Service */,
 				F86243ED2B20645200D0E680 /* Extensions */,
 				F86243F02B2064D300D0E680 /* Components */,
 				F86243F72B206A8500D0E680 /* Constants */,
@@ -162,8 +176,28 @@
 		F86243F72B206A8500D0E680 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				F86243F82B206AC600D0E680 /* Constants.swift */,
+				F86243FA2B206AD200D0E680 /* NetworkErrors.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		F86243FC2B206AFD00D0E680 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F86243FD2B206B0B00D0E680 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F86243FF2B206DD300D0E680 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F86244002B206DE200D0E680 /* Coordinator.swift */,
+				F86244022B206DEF00D0E680 /* CoordinatorViewModel.swift */,
+				F86244042B206E0200D0E680 /* CoordinatorView.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,9 +333,15 @@
 			files = (
 				F86243F22B2064F000D0E680 /* CustomStepper.swift in Sources */,
 				F86243F42B20650200D0E680 /* CustomBackButton.swift in Sources */,
+				F86244012B206DE200D0E680 /* Coordinator.swift in Sources */,
 				F86243EF2B20646F00D0E680 /* PreviewProvider+.swift in Sources */,
 				F86243F62B20651200D0E680 /* CustomAsyncImage.swift in Sources */,
+				F86243F92B206AC600D0E680 /* Constants.swift in Sources */,
+				F86243FE2B206B0B00D0E680 /* Service.swift in Sources */,
+				F86244052B206E0200D0E680 /* CoordinatorView.swift in Sources */,
+				F86243FB2B206AD200D0E680 /* NetworkErrors.swift in Sources */,
 				F86243C42B20634B00D0E680 /* ContentView.swift in Sources */,
+				F86244032B206DEF00D0E680 /* CoordinatorViewModel.swift in Sources */,
 				F86243C22B20634B00D0E680 /* ShopCartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
