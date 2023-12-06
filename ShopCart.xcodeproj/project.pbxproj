@@ -32,6 +32,10 @@
 		F86244152B20723A00D0E680 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244142B20723A00D0E680 /* HomeView.swift */; };
 		F86244172B20747900D0E680 /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244162B20747900D0E680 /* HomeCard.swift */; };
 		F86244192B20748600D0E680 /* HomeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244182B20748600D0E680 /* HomeDetails.swift */; };
+		F862441F2B207B6D00D0E680 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862441E2B207B6D00D0E680 /* CartViewModel.swift */; };
+		F86244212B207B8300D0E680 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244202B207B8300D0E680 /* CartItem.swift */; };
+		F86244232B207D1400D0E680 /* CartCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244222B207D1400D0E680 /* CartCard.swift */; };
+		F86244252B2089FA00D0E680 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86244242B2089FA00D0E680 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,10 @@
 		F86244142B20723A00D0E680 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F86244162B20747900D0E680 /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
 		F86244182B20748600D0E680 /* HomeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetails.swift; sourceTree = "<group>"; };
+		F862441E2B207B6D00D0E680 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		F86244202B207B8300D0E680 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		F86244222B207D1400D0E680 /* CartCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCard.swift; sourceTree = "<group>"; };
+		F86244242B2089FA00D0E680 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,9 +272,45 @@
 		F862440B2B2070C300D0E680 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F862441A2B207A5000D0E680 /* Cart */,
 				F86244062B20709200D0E680 /* Home */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		F862441A2B207A5000D0E680 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				F862441D2B207A6B00D0E680 /* ViewModel */,
+				F862441C2B207A6500D0E680 /* Model */,
+				F862441B2B207A6200D0E680 /* View */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		F862441B2B207A6200D0E680 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F86244222B207D1400D0E680 /* CartCard.swift */,
+				F86244242B2089FA00D0E680 /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F862441C2B207A6500D0E680 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F86244202B207B8300D0E680 /* CartItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F862441D2B207A6B00D0E680 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F862441E2B207B6D00D0E680 /* CartViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,17 +449,21 @@
 				F86243F42B20650200D0E680 /* CustomBackButton.swift in Sources */,
 				F86244132B2071E300D0E680 /* HomeViewModel.swift in Sources */,
 				F86244012B206DE200D0E680 /* Coordinator.swift in Sources */,
+				F86244252B2089FA00D0E680 /* CartView.swift in Sources */,
 				F86244152B20723A00D0E680 /* HomeView.swift in Sources */,
 				F86244172B20747900D0E680 /* HomeCard.swift in Sources */,
 				F86243EF2B20646F00D0E680 /* PreviewProvider+.swift in Sources */,
 				F86243F62B20651200D0E680 /* CustomAsyncImage.swift in Sources */,
 				F862440D2B2070E900D0E680 /* HomeManager.swift in Sources */,
 				F86243F92B206AC600D0E680 /* Constants.swift in Sources */,
+				F86244232B207D1400D0E680 /* CartCard.swift in Sources */,
 				F86243FE2B206B0B00D0E680 /* Service.swift in Sources */,
 				F86244052B206E0200D0E680 /* CoordinatorView.swift in Sources */,
+				F86244212B207B8300D0E680 /* CartItem.swift in Sources */,
 				F86243FB2B206AD200D0E680 /* NetworkErrors.swift in Sources */,
 				F86244192B20748600D0E680 /* HomeDetails.swift in Sources */,
 				F86243C42B20634B00D0E680 /* ContentView.swift in Sources */,
+				F862441F2B207B6D00D0E680 /* CartViewModel.swift in Sources */,
 				F86244032B206DEF00D0E680 /* CoordinatorViewModel.swift in Sources */,
 				F86243C22B20634B00D0E680 /* ShopCartApp.swift in Sources */,
 				F862440F2B20711D00D0E680 /* Product.swift in Sources */,
