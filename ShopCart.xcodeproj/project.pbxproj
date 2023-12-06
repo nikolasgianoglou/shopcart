@@ -15,6 +15,10 @@
 		F86243DD2B20634D00D0E680 /* ShopCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243DC2B20634D00D0E680 /* ShopCartUITests.swift */; };
 		F86243DF2B20634D00D0E680 /* ShopCartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243DE2B20634D00D0E680 /* ShopCartUITestsLaunchTests.swift */; };
 		F86243EC2B20637C00D0E680 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = F86243EB2B20637C00D0E680 /* product.json */; };
+		F86243EF2B20646F00D0E680 /* PreviewProvider+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243EE2B20646F00D0E680 /* PreviewProvider+.swift */; };
+		F86243F22B2064F000D0E680 /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243F12B2064F000D0E680 /* CustomStepper.swift */; };
+		F86243F42B20650200D0E680 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243F32B20650200D0E680 /* CustomBackButton.swift */; };
+		F86243F62B20651200D0E680 /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86243F52B20651200D0E680 /* CustomAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		F86243DC2B20634D00D0E680 /* ShopCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCartUITests.swift; sourceTree = "<group>"; };
 		F86243DE2B20634D00D0E680 /* ShopCartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F86243EB2B20637C00D0E680 /* product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		F86243EE2B20646F00D0E680 /* PreviewProvider+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewProvider+.swift"; sourceTree = "<group>"; };
+		F86243F12B2064F000D0E680 /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		F86243F32B20650200D0E680 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		F86243F52B20651200D0E680 /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,9 @@
 		F86243C02B20634B00D0E680 /* ShopCart */ = {
 			isa = PBXGroup;
 			children = (
+				F86243ED2B20645200D0E680 /* Extensions */,
+				F86243F02B2064D300D0E680 /* Components */,
+				F86243F72B206A8500D0E680 /* Constants */,
 				F86243EB2B20637C00D0E680 /* product.json */,
 				F86243C12B20634B00D0E680 /* ShopCartApp.swift */,
 				F86243C32B20634B00D0E680 /* ContentView.swift */,
@@ -128,6 +139,31 @@
 				F86243DE2B20634D00D0E680 /* ShopCartUITestsLaunchTests.swift */,
 			);
 			path = ShopCartUITests;
+			sourceTree = "<group>";
+		};
+		F86243ED2B20645200D0E680 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F86243EE2B20646F00D0E680 /* PreviewProvider+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F86243F02B2064D300D0E680 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F86243F12B2064F000D0E680 /* CustomStepper.swift */,
+				F86243F32B20650200D0E680 /* CustomBackButton.swift */,
+				F86243F52B20651200D0E680 /* CustomAsyncImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F86243F72B206A8500D0E680 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86243F22B2064F000D0E680 /* CustomStepper.swift in Sources */,
+				F86243F42B20650200D0E680 /* CustomBackButton.swift in Sources */,
+				F86243EF2B20646F00D0E680 /* PreviewProvider+.swift in Sources */,
+				F86243F62B20651200D0E680 /* CustomAsyncImage.swift in Sources */,
 				F86243C42B20634B00D0E680 /* ContentView.swift in Sources */,
 				F86243C22B20634B00D0E680 /* ShopCartApp.swift in Sources */,
 			);
